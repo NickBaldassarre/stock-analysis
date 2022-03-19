@@ -50,7 +50,7 @@ While this code was effective in analyzing the data, it took a very long time to
 
 ### Refactored Code Using 3 Additional Output Arrays
 
-In order to speed up the calculations taking place, I created 3 additional ouput arrays to hold the values as they were being determined. Now, instead of activating two different worksheets in every loop, outputing to one of them everytime, the code just gathers the data from one worksheet into arrays. I am able to activate the worksheet containing the dataset before beginning the for loop, and can activate the ouput worksheets after the for loop. Refactored code below.
+In order to speed up the calculations taking place, I created 3 additional ouput arrays to hold the values as they were being determined. Now, instead of activating two different worksheets in every loop, outputing to one of them every time, the code just gathers the data from one worksheet into arrays. I am able to activate the worksheet containing the dataset before beginning the for loop, and can activate the ouput worksheets after the for loop. Refactored code below.
 
     For i = 0 To 11
 
